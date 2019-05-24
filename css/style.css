@@ -1,0 +1,19 @@
+/*Main specification*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+l,li{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+img{
+	display: block;
+}
