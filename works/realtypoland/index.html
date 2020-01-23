@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title>REALTY POLAND - Biuro Nieruchomości / Real Estate Agency</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	 <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	 <meta name="viewport" content="width=device-width, initial-scale=1 , maximum-scale=1, user-scalable=0">
+</head>
+<body>
+	<header>
+			<nav class="menu clearfix">
+				 <div class="menu_toggle">&#9776;</div>
+				<ul>
+					<li><a href="http://realtypoland.com">Strona Główna</a></li>
+					<li><a href="#about">O nas</a></li>
+					<li><a href="#services">Usługi</a></li>
+					<li><a href="#contact">Kontakt</a></li>
+				</ul>
+			</nav>
+			<div class="wrapper">
+				<div class="logo">
+					<img src="img/logo.png" alt="logo">
+				</div>
+				<h1>Marketing 2.0 na rynku nieruchomości</h1>
+			</div>
+	</header>
+
+	<div class="about" id="about">
+		<div class="wrapper">
+			<h2>Witamy w <strong>Realty Poland</strong>!</h2>
+			<p>Jesteśmy zespołem młodych specjalistów, świadczących usługi pośrednictwa w obrocie nieruchomościami w Krakowie i okolicach. Wieloletnie doświadczenie pozwala nam na obsługę Klientów na najwyższym poziomie. Dbamy o najlepszą jakość usług jak dla osób poszukujących nieruchomości, tak i również dla właścicieli nieruchomości. Oferujemy nowoczesne rozwiązania marketingowe i profesjonalnie przeprowadzamy naszych Klientów poprzez cały proces sprzedaży lub wynajmu. Jesteśmy zawsze czujni do preferencji naszych klientów, z nami na pewno znajdziesz swoją wymarzoną nieruchomość!</p><br/>
+
+			<p class="contact">W celu nawiązania współpracy zapraszamy do kontaktu z naszymi specjalistami!</p>
+            
+
+			<a href="#contact" class="contact_btn">
+				<button type="submit" class="btn">Kontakt</button></a>
+
+			
+
+		</div>
+	</div>
+		<div class="line" id="services">
+			<hr>
+		</div>
+
+		<div class="services">
+			<div class="wrapper">
+				<h2>Usługi</h2>
+
+				<div class="service_elements">
+			<div class="service">
+				<img src="img/img1.png" alt="">
+				
+			</div>
+			<div class="service">
+				<img src="img/img2.png" alt="">
+				
+			</div>
+			<div class="service">
+				<img src="img/img3.png" alt="">
+				
+			</div>
+			<div class="service">
+				<img src="img/img4.png" alt="">
+				
+			</div>
+			<div class="service">
+				<img src="img/img5.png" alt="">
+				
+			</div>
+			<div class="service">
+				<img src="img/img6.png" alt="">
+				
+			</div>
+		</div>
+		</div>
+		</div>
+
+		<div class="line" id="contact">
+			<hr>
+		</div>
+
+	    <div class="contact">
+	    	<div class="wrapper">
+	    		<div class="contact_title">
+	    			<h2>Skontaktuj się z nami!</h2>
+	    			<p>Lub wypełnij formularz i skontaktujemy się z tobą w najbliższym czasie!</p>
+	    		</div>
+
+	    		<div class="contact_wrapper clearfix">
+	    		<div class="info">
+	    			<p class="number">+48 732 704 789</p>
+	    			<p class="e-mail">biuro@realtypoland.com</p>
+	    			<div class="icons">
+	    			<a href="https://www.facebook.com/realtypoland/" target="blank"><img src="img/fb.png" alt=""></a>
+	    			<a href="https://www.instagram.com/realtypoland/" target="blank"><img src="img/insta.png" alt=""></a></div>
+
+
+	    		</div>
+
+	    		<form class="contact_form"  method="post" action="sendmail.php">
+	    			<input type="text" class="validator" name="name_surname" placeholder="Imię i Nazwisko">
+	    			<input type="text" class="validator" name="email" placeholder="Adres e-mail">
+	    			<input type="text" name="name_surname2" placeholder="Imię i Nazwisko" required>
+	    			<input type="text" name="email2" placeholder="Adres e-mail" required>
+	    			<input type="text" name="phone_number" placeholder="Numer telefonu" required>
+	    			<textarea name="message" placeholder="Treść wiadomości" cols="40" rows="10" required maxlength="1000"></textarea>
+	    			<div class="agree">
+	    			<label><input type="checkbox" name="agree" required >
+	    			Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z ustawą o ochronie danych osobowych przez REALTY POLAND z siedzibą w Krakowie w celach związanych z realizacją zgłoszenia, udzielaniem odpowiedzi na zgłoszenie, przygotowaniem i przesłaniem oferty handlowej.</label>
+	    		</div>
+	    			<input type="submit"  class="btn" value="Wyślij">
+
+	    		</form>
+            </div>
+	    	</div>
+
+	    </div>
+
+	    <footer>
+	    	<div class="logo_wrap">
+	    	<img class="footer_logo" src="img/logo.png" alt="">
+	    	</div>
+             <div class="contact_us" >
+             	<h3>Skontaktuj się z nami:</h3>
+             	<p>+48 732 704 789</p>
+             	<p>biuro@realtypoland.com</p>
+             </div>
+                    	<div class="icons">
+	    			<a href="https://www.facebook.com/realtypoland/" target="blank"><img src="img/fb_white.png" alt=""></a>
+	    			<a href="https://www.instagram.com/realtypoland/" target="blank"><img src="img/insta_white.png" alt=""></a></div>
+	    </footer>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <script src="js/scripts.js"></script>
+		
+
+
+	
+</body>
+</html>

@@ -1,19 +1,87 @@
-/*Main specification*/
-html{
-    scroll-behavior: smooth;
-}
+@font-face {
+    font-family: Museo; 
+    src: url(../fonts/MuseoSans900.ttf); 
+   }
 
-body{
+body,h1,p{
 	padding: 0;
 	margin: 0;
+	font-family: Museo;
 }
 
-l,li{
+p{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.resize:hover {
+    -moz-transform: scale(1.1,1.1); 
+    -ms-transform: scale(1.1,1.1); 
+    -webkit-transform: scale(1.1,1.1); 
+    -o-transform: scale(1.1,1.1); 
+    transform: scale(1.1,1.1);
+}
+
+ul,li{
 	padding: 0;
 	margin: 0;
 	display: block;
 }
 
-img{
-	display: block;
+.main{
+	height: 100vh;
+	background: url("../img/coding.jpg") no-repeat center top / cover;
 }
+.about__name{
+	padding-top: 80px;
+	color:#FCDB01;
+	font-size: 30px;
+}
+.about__position{
+	color:#ffffff;
+	font-size: 11px;
+	margin-bottom: 50px;
+	margin-bottom: 100px;
+
+}
+
+.links__item{
+	width: 100%;
+	height: 200px;
+	box-shadow: 0 24px 48px rgba(0,0,0,1), 0 10px 10px rgba(0,0,0,0.75);
+	transition: 0.5s ease all;
+	border-radius: 5px;
+	margin-top:20px;
+}
+
+.links p{
+	color:#ffffff;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 11px;
+}
+
+
+@media screen and (max-width:992px){
+	.about__name{
+		padding:10px;
+	}
+	.about__position{
+		margin-bottom: 15px;
+	}
+
+.main{
+	height: 100%;
+}
+
+.links p{
+	margin: 0 0 15px 0;
+}
+
+.links__item{
+height: 100%;
+margin-bottom: 1%;
+}
+
+
+
