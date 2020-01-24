@@ -33,15 +33,15 @@ ul,li{
 	background: url("../img/coding.jpg") no-repeat center top / cover;
 }
 .about__name{
-	padding-top: 80px;
+	padding-top: 40px;
 	color:#FCDB01;
 	font-size: 30px;
 }
 .about__position{
 	color:#ffffff;
 	font-size: 11px;
-	margin-bottom: 50px;
-	margin-bottom: 100px;
+	
+	
 
 }
 
